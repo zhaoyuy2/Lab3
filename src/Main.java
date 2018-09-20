@@ -20,8 +20,9 @@ public class Main {
         urlScanner.close();
         return contents;
     }
+
     public static void main(String[] args) {
 	// write your code here
-        System.out.println("http://erdani.com/tdpl/hamlet.txt");
+        System.out.println(urlToString("http://erdani.com/tdpl/hamlet.txt"));
     }
 }
